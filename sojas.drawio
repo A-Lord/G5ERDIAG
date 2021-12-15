@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T13:19:08.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="DI_Kf2d0VpUOK7inVH4x" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T13:21:46.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="OsWDTAGGnBJoUJh1HbBN" version="15.9.6" type="github">
   <diagram id="bgCsupE-RrFJObJ2OHrQ" name="Page-1">
-    <mxGraphModel dx="1346" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2352" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -230,6 +230,9 @@
         <mxCell id="8ETVgoLnfylcAnB1L1Gz-2" value="EndDate" style="ellipse;whiteSpace=wrap;html=1;align=center;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="-20" y="-350" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="8ETVgoLnfylcAnB1L1Gz-5" value="Departments" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="-670" width="100" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="cTiyhm5G_KL6r7Zk5rUr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cTiyhm5G_KL6r7Zk5rUr-1" target="_oEQiWgGqk_jcxd5cbi1-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-290" y="-430" as="targetPoint" />
@@ -241,6 +244,24 @@
         </mxCell>
         <mxCell id="cTiyhm5G_KL6r7Zk5rUr-1" value="StaffID" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-380" y="-160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETVgoLnfylcAnB1L1Gz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="8ETVgoLnfylcAnB1L1Gz-11" target="8ETVgoLnfylcAnB1L1Gz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETVgoLnfylcAnB1L1Gz-11" value="Products" style="whiteSpace=wrap;html=1;align=center;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="-650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETVgoLnfylcAnB1L1Gz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="8ETVgoLnfylcAnB1L1Gz-12" target="_oEQiWgGqk_jcxd5cbi1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETVgoLnfylcAnB1L1Gz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="8ETVgoLnfylcAnB1L1Gz-12" target="8ETVgoLnfylcAnB1L1Gz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETVgoLnfylcAnB1L1Gz-12" value="Inventory" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="-550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8ETVgoLnfylcAnB1L1Gz-15" value="InventroyDate" style="ellipse;whiteSpace=wrap;html=1;align=center;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-530" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
